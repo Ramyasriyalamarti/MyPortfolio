@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .skills-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .skill-item {
+            margin: 15px 0;
+        }
+        .skill-item h2 {
+            margin: 5px 0;
+        }
+        .skill-rating {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .skill-rating .bar {
+            width: 200px;
+            height: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .skill-rating .progress {
+            height: 100%;
+            border-radius: 5px;
+            background-color: #4caf50; /* Green */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ramya</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#service">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <button class="btn">Contact Me</button>
+        </div>
+    </header>
+    <div class="home">
+        <div class="home-content">
+            <h3>Hi, I am</h3>
+            <h1>Ramya Sri Yalamarti</h1>
+            <h2 id="loop">Student</h2>
+            <p>A versatile and driven developer with experience in AI-powered solutions, machine learning, and competitive programming.</p>
+            <div class="button">
+                <button id="btn">Hire Me</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="C:\Users\hp\OneDrive\Desktop\images.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="image">
+            <img src="C:\Users\hp\OneDrive\Desktop\scholar\cropped_image (2).png" alt=""/>
+        </div>
+        <div class="about-content">
+            <h1>About</h1>
+            <h2>Student</h2>
+            <p>A passionate tech enthusiast transforming ideas into AI-powered innovations and machine learning solutions. Driven by curiosity and creativity, I thrive on solving complex problems and pushing the limits of technology.</p>
+            <div class="button">
+                <button class="A-btn">Read More..</button>
+            </div>
+            <div class="social-media">
+                <li><a href="https://www.linkedin.com/in/ramya-sri-yalamarti-839975237/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Ramyasriyalamarti"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="mailto:ramyasriyalamarti@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+            </div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <center><h1>Skills</h1></center>
+        <div class="skills-content">
+            <div class="skill-item">
+                <h2>Programming Languages</h2>
+                <p>Java, Python</p>
+                <div class="skill-rating">
+                    <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h2>Machine Learning</h2>
+                <p>Deep Learning, Natural Language Processing</p>
+                <div class="skill-rating">
+                    <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+                    <span>75%</span>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h2>Web Development</h2>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="skill-rating">
+                    <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+                    <span>70%</span>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h2>Tools & Technologies</h2>
+                <p>OpenCV, Firebase, Git, GitHub</p>
+                <div class="skill-rating">
+                    <div class="bar"><div class="progress" style="width: 65%;"></div></div>
+                    <span>65%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service" id="service">
+        <h1>Projects</h1>
+        <div class="main-service">
+            <div class="card">
+                <li><a href="https://github.com/Ramyasriyalamarti/FaceAttendanceSystem"><i class="fa-solid fa-code"></i></a></li>
+                <h2>AI-Powered Student Attendance System</h2>
+                <p>A system utilizing facial recognition technology to automate attendance tracking in educational institutions, enhancing efficiency and accuracy.</p>
+                <button class="S-btn">More..</button>
+            </div>
+            <div class="card" id="three">
+                <li><a href="https://github.com/Ramyasriyalamarti/MalwareDetectionUsingTransformers"><i class="fa-solid fa-code"></i></a></li>
+                <h2>Malware Detection Using Transformers</h2>
+                <p>A project employing transformer models to detect malware in software applications, leveraging advanced machine learning techniques.</p>
+                <button class="S-btn">More..</button>
+            </div>
+            <div class="card" id="three02">
+                <li><a href="https://github.com/Ramyasriyalamarti/Image-Caption-Generator"><i class="fa-solid fa-code"></i></a></li>
+                <h2>Image Caption Generator</h2>
+                <p>A project leveraging deep learning techniques to generate descriptive captions for images, showcasing advancements in natural language processing.</p>
+                <button class="S-btn">More..</button>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="main-contact">
+            <form>
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="User-name" class="sanjay" required/><br/>
+                <input type="password" placeholder="Password" class="sanjay" required/><br/>
+                <textarea placeholder="Write Message" class="text"></textarea><br>
+                <button class="C-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>@All copyright reserved by Ramya Sri Yalamarti</h3>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
